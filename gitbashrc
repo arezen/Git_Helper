@@ -1,0 +1,4 @@
+if [ -f ~/.gitprompt ]; then
+    source ~/.gitprompt
+    PS1="\u@\h:\w\$(parse_git_branch_or_tag) $ "
+fi
