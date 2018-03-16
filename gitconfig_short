@@ -22,3 +22,9 @@
 	cmd = diffmerge $LOCAL $REMOTE
 [difftool]
 	prompt = false 
+
+[alias]
+    co = checkout
+    br = branch
+    ci = commit
+    st = status
